@@ -29,17 +29,17 @@
   <body class="font-helvetica">
     <div class="bg-[#F1F3FF]">
     <!-- navbar -->
-      <div class="container mx-auto flex justify-between items-center py-8 px-8 md:px-0"> 
+      <div class="container mx-auto flex justify-between items-center py-8 px-8"> 
         <img src="logo.png" alt="Logo" width="100px" height="34px" />
         <div class="flex items-center justify-end max-sm:hidden">
-          <div class="mr-10">Our Services</div>
-          <div class="mr-10">Why Us</div>
-          <div class="mr-10">Testimonial</div>
+          <div class="mr-10 active cursor-pointer" onclick="window.location.href='#our-service'">Our Services</div>
+          <div class="mr-10 active cursor-pointer" onclick="window.location.href='#why-us'">Why Us</div>
+          <div class="mr-10 active cursor-pointer" onclick="window.location.href='#testimonial'">Testimonial</div>
           <div class="mr-10">FAQ</div>
           <div class="bg-[#5CB85F] font-bold text-white rounded-md py-2 px-4"> Register </div>
         </div>
-        <div class="sm:hidden px-4 md:px-0">
-          <img src="fi_menu.png" alt="Icon_Menu" width="24px" height="24px" />
+        <div class="sm:hidden px-0">
+          <img src="fi_menu.png" alt="Icon_Menu" width="24px" height="24px"/>
         </div>
       </div>
       </div>
@@ -49,14 +49,14 @@
     <div class="bg-[#F1F3FF]">
         <div class="container mx-auto py-15">
           <div class="grid md:grid-cols-2 gap-4 items-center">
-            <div class="px-4 md:px-0"> 
+            <div class="px-4"> 
               <h1 class="text-4xl font-bold">Sewa & Rental Mobil Terbaik di Kawasan Surabaya</h1>
               <p class="my-4">
                 Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
               </p>
               <button class="bg-[#5CB85F] font-bold text-white rounded-md p-2">Mulai Sewa Mobil</button>
             </div>
-            <div class="px-4 py-19 md:px-0">
+            <div class="px-4 py-19">
               <img src="img_car.png" alt="Mobil Sewa" width="auto" height="auto" />
             </div>
           </div>
@@ -64,6 +64,7 @@
       </div>      
 
     <!-- our service -->
+    <section id="our-service">
       <div class="container mx-auto max-sm:flex-col my-4 py-4">
           <div class="flex flex-wrap items-center">
             <div class="md:w-1/2 flex justify-center justify-start my-8">
@@ -112,11 +113,13 @@
               </div>              
               </div>
             </div>
+          </section>
             
     <!-- why us -->
+    <section id="why-us sm:text-center">
     <div class="container mx-auto max-sm:flex-col p-8 my-8">
       <section class="why-us-section">
-        <div class="text-left">
+        <div class="sm:text-center">
           <h2 class="text-2xl font-bold">Why Us?</h2>
           <p class="text-black my-5">Mengapa harus pilih Binar Car Rental?</p>
         <div class="grid sm:grid-cols-1 md:grid-cols-4 gap-4 my-14">
@@ -159,15 +162,17 @@
                  </div>
               </section>
             </div>
+          </section>
 
             
      <!-- ---------- TESTIMONY SECTION BEGIN ---------- -->
+     <section id="testimonial">
      <div class="text-center">
       <span class="text-xl font-bold">Testimonial</span>
       <p class="text-black my-4">Berbagai review positif dari para pelanggan kami</p>
       </div>
       <!-- Owl Carousel -->
-      <section id="testimonial" class="my-10">
+      <div class="my-10">
       <div class="looping owl-carousel owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer mb-4">
           <div class="owl-stage">
@@ -281,10 +286,12 @@
           </div>
         </div>
       </div>
-      </section>
+    </div>
+  </section>
       <!-- ---------- TESTIMONY SECTION END ------------>
 
       <!-- banner -->
+      <div class="container mx-auto">
             <div class="text-center my-20">
               <div class="banner bg-[#0D28A6] rounded-xl">
                 <div class="container text-center py-7 flex justify-center items-center flex-col">
@@ -298,7 +305,8 @@
               </div> 
           </div>
       </div>
-   </div>
+    </div>
+  </div>
         <!-- cdnjs  Jquery / owl carousel.js -->
         <script
         src="https://code.jquery.com/jquery-3.7.0.min.js"
@@ -311,6 +319,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       ></script>
+
         <!-- JavaScript -->
         <script>
           jQuery(document).ready(function ($) {
