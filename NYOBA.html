@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binar Car Rental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-helvetica">
+    <div class="bg-[#F1F3FF]">
+    <!-- navbar -->
+      <div class="container mx-auto flex justify-between items-center py-8 px-8 md:px-0"> 
+        <img src="logo.png" alt="Logo" width="100px" height="34px" />
+        <div class="flex items-center justify-end max-sm:hidden">
+          <div class="mr-10">Our Services</div>
+          <div class="mr-10">Why Us</div>
+          <div class="mr-10">Testimonial</div>
+          <div class="mr-10">FAQ</div>
+          <div class="bg-[#5CB85F] font-bold text-white rounded-md py-2 px-4"> Register </div>
+        </div>
+        <div class="sm:hidden px-4 md:px-0">
+          <img src="fi_menu.png" alt="Icon_Menu" width="24px" height="24px" />
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- header -->
+    <div class="bg-[#F1F3FF]">
+        <div class="container mx-auto py-15">
+          <div class="grid md:grid-cols-2 gap-4 items-center">
+            <div class="px-4 md:px-0"> 
+              <h1 class="text-4xl font-bold">Sewa & Rental Mobil Terbaik di Kawasan Surabaya</h1>
+              <p class="my-4">
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+              </p>
+              <button class="bg-[#5CB85F] font-bold text-white rounded-md p-2">Mulai Sewa Mobil</button>
+            </div>
+            <div class="px-4 py-19 md:px-0">
+              <img src="img_car.png" alt="Mobil Sewa" width="auto" height="auto" />
+            </div>
+          </div>
+        </div>
+      </div>      
+
+    <!-- our service -->
+      <div class="container mx-auto max-sm:flex-col my-4 py-4">
+          <div class="flex flex-wrap items-center">
+            <div class="md:w-1/2 flex justify-center justify-start my-8">
+              <img src="img_service.png" alt="Service" width="459px" height="428px"
+              />
+            </div>
+            <div class="flex flex-1 flex-col items-start justify-center text-black p-8 my-4">
+              <h1 class="text-3xl font-bold">Best Car Rental for any kind of trip in Surabaya !</h1>
+              <p class="my-4">
+                Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+                lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+                kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                wedding, meeting, dll.
+             </p>
+              <div class="custom-list">
+                <div class="custom-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p class="custom-text">Sewa Mobil Dengan Supir di Bali 12 Jam</p>
+                </div>
+                <div class="custom-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p class="custom-text">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                </div>
+                <div class="custom-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p class="custom-text">Sewa Mobil Jangka Panjang Bulanan</p>
+                </div>
+                <div class="custom-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p class="custom-text">Gratis Antar - Jemput Mobil di Bandara</p>
+                </div>
+                <div class="custom-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p class="custom-text">Layanan Airport Transfer / Drop In Out</p>
+                </div>
+              </div>              
+              </div>
+            </div>
+            
+    <!-- why us -->
+    <div class="container mx-auto max-sm:flex-col p-8 my-8">
+      <section class="why-us-section">
+        <div class="text-left">
+          <h2 class="text-2xl font-bold">Why Us?</h2>
+          <p class="text-black my-5">Mengapa harus pilih Binar Car Rental?</p>
+        <div class="grid sm:grid-cols-1 md:grid-cols-4 gap-4 my-14">
+
+          <!-- Mobil Lengkap -->
+          <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white">
+            <div class="p-4">
+              <img src="icon_complete.png" alt="Icon Complete" width="32px" height="32px" class="py-4" />
+              <h3 class="text-lg font-semibold py-2">Mobil Lengkap</h3>
+              <p class="text-black">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat.</p>
+            </div>
+          </div>
+    
+          <!-- Harga Murah-->
+          <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white">
+            <div class="p-4">
+              <img src="icon_price.png" alt="Icon Price" width="32px" height="32px" class="py-4" />
+              <h3 class="text-lg font-semibold py-2">Harga Murah</h3>
+              <p class="text-black">Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain.</p>
+            </div>
+          </div>
+    
+          <!-- Layanan 24 Jam -->
+          <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white">
+            <div class="p-4">
+              <img src="icon_24hrs.png" alt="Icon 24 Hours" width="32px" height="32px" class="py-4" />
+              <h3 class="text-lg font-semibold py-2">Layanan 24 Jam</h3>
+              <p class="text-black">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu.</p>
+            </div>
+          </div>
+    
+          <!-- Sopir Professional -->
+          <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white">
+            <div class="p-4">
+              <img src="icon_professional.png" alt="Icon Profesional" width="32px" height="32px" class="py-4" />
+              <h3 class="text-lg font-semibold py-2">Sopir Profesional</h3>
+              <p class="text-black">Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu.</p>
+                     </div>
+                   </div>
+                 </div>
+              </section>
+            </div>
+
+            
+     <!-- ---------- TESTIMONY SECTION BEGIN ---------- -->
+     <div class="text-center">
+      <span class="text-xl font-bold">Testimonial</span>
+      <p class="text-black my-4">Berbagai review positif dari para pelanggan kami</p>
+      </div>
+      <!-- Owl Carousel -->
+      <section id="testimonial" class="my-10">
+      <div class="looping owl-carousel owl-theme owl-loaded owl-drag">
+        <div class="owl-stage-outer mb-4">
+          <div class="owl-stage">
+            <div class="owl-item">
+              <!-- Testimonial Item 1 -->
+              <div class="item">
+                <div class="card p-5 rounded-lg border-0">
+                  <img
+                    src="./assets/img_testi1.svg"
+                    class="custom-img-testi"
+                    alt="Image Testimonial"
+                  />
+                  <div class="col-span-10 text-start">
+                    <div class="my-2">
+                      <img
+                        src="./assets/star_testi.svg"
+                        alt="star testimonial"
+                        style="width: 100px"
+                      />
+                    </div>
+                    <div class="text-start">
+                      <p>
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod”
+                      </p>
+                      <p class="font-bold">John Dee 32, Bromo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Testimonial Item 2 -->
+            <div class="owl-item">
+              <div class="item">
+                <div class="card p-5 rounded-lg border-0">
+                  <div class="flex flex-col md:flex-row items-center">
+                    <div class="row justify-content-center">
+                      <div class="flex items-center justify-center pr-5 lg:w-1/6">
+                        <img
+                          src="./assets/img_testi1.svg"
+                          class="custom-img-testi"
+                          alt="Image Testimonial"
+                        />
+                      </div>
+                      <div class="col-lg-10 col-12">
+                        <div class="my-2">
+                          <img
+                            src="./assets/star_testi.svg"
+                            alt="star testimonial"
+                            style="width: 100px"
+                          />
+                        </div>
+                        <div class="text-start">
+                          <p>
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod”
+                          </p>
+                          <p class="font-bold">John Dee 32, Bromo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Testimonial Item 3 -->
+            <div class="owl-item">
+              <div class="item">
+                <div class="card p-5 rounded-3 border-0">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="row">
+                      <div
+                        class="col-lg-2 d-flex align-items-center justify-content-center px-5"
+                      >
+                        <img
+                          src="./assets/img_testi2.svg"
+                          class="custom-img-testi"
+                          alt="Image Testimonial"
+                        />
+                      </div>
+                      <div class="col-lg-10">
+                        <div class="my-2">
+                          <img
+                            src="./assets/star_testi.svg"
+                            alt="star testimonial"
+                            style="width: 100px"
+                          />
+                        </div>
+                        <div class="text-start">
+                          <p>
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod”
+                          </p>
+                          <p class="font-bold">John Dee 32, Bromo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- ---------- TESTIMONY SECTION END ------------>
+
+      <!-- banner -->
+            <div class="text-center my-20">
+              <div class="banner bg-[#0D28A6] rounded-xl">
+                <div class="container text-center py-7 flex justify-center items-center flex-col">
+                  <h1 class="text-white text-4xl font-bold py-5">Sewa Mobil di Surabaya Sekarang</h1>
+                  <p class="text-white w-1/2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <button class="bg-[#5CB85F] text-white px-4 py-2 rounded-md mt-4">Mulai Sewa Mobil</button>
+                  </div>
+                </div>
+              </div> 
+          </div>
+      </div>
+   </div>
+        <!-- cdnjs  Jquery / owl carousel.js -->
+        <script
+        src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+        <!-- JavaScript -->
+        <script>
+          jQuery(document).ready(function ($) {
+            $(".looping").owlCarousel({
+              center: true,
+              margin: 20,
+              loop: true,
+              nav: true,
+              dots: false,
+              navText: [
+                "<img src='assets/prev_btn.svg'>",
+                "<img src='assets/next_btn.svg'>",
+              ],
+              responsive: {
+                0: {
+                  items: 1,
+                },
+                640: {
+                  items: 2,
+                },
+              },
+            });
+          });
+        </script>
+  </body>
+</html>
